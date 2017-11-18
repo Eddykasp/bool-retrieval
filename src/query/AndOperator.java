@@ -6,5 +6,10 @@ public class AndOperator<T extends BooleanOperable> implements Operator<T> {
 	public T evaluate(T operandA, T operandB) {
 		return (T) operandA.booleanAnd(operandB);
 	}
+	
+	@Override
+	public String toString() {
+		return "AND";
+	}
 
 }

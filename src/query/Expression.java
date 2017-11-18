@@ -21,7 +21,7 @@ public class Expression<T extends BooleanOperable> {
 	}
 	
 	public String toString() {
-		return new String("(" + leftOperand.toString() + " op " + rightOperand.toString() + ")");
+		return new String("(" + leftOperand.toString() + " " + operator.toString() + " " + rightOperand.toString() + ")");
 	}
 
 }
