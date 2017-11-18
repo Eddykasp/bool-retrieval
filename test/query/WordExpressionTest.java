@@ -1,6 +1,7 @@
 package query;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
 
 import java.util.LinkedList;
 
@@ -83,6 +84,51 @@ public class WordExpressionTest {
 		
 		assertEquals(expectedResult, result.getDocumentIds());
 				
+	}
+	
+	@Test
+	public void nestedAndExpression() {
+		fail();
+	}
+	
+	@Test
+	public void nestedOrExpression() {
+		fail();
+	}
+	
+	@Test
+	public void nestedAndNotExpression() {
+		fail();
+	}
+	
+	@Test
+	public void nestedAndOrExpression() {
+		fail();
+	}
+	
+	@Test
+	public void nestedOrAndExpression() {
+		fail();
+	}
+	
+	@Test
+	public void nestedAndAndNotExpression() {
+		fail();
+	}
+	
+	@Test
+	public void nestedAndNotAndExpression() {
+		fail();
+	}
+	
+	@Test
+	public void nestedOrAndNotExpression() {
+		fail();
+	}
+	
+	@Test
+	public void nestedAndNotOrExpression() {
+		fail();
 	}
 
 }
